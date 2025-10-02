@@ -1,10 +1,10 @@
-@import "_normalize.css";
-@import "_fonts.css";
-@import "_variables.css";
-@import "_globals.css";
-@import "_overall.css";
+@import "normalize.css";
+@import "fonts.css";
+@import "variables.css";
+@import "globals.css";
+@import "overall.css";
 
-@import "components/_header.css";
-@import "components/_cards-section.css";
-@import "components/_gallery-section.css";
-@import "components/_card.css";
+@import "components/header.css";
+@import "components/cards-section.css";
+@import "components/gallery-section.css";
+@import "components/card.css";
