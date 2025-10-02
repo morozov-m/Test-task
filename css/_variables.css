@@ -1,0 +1,12 @@
+:root {
+    --text-color: rgba(39, 42, 51, 1);
+    --text-hover-nav: rgba(238, 117, 62, 1);
+    --border-color-card: rgba(224, 230, 237, 1);
+    --button-text-color: rgba(255, 255, 255, 1);
+    --button-background-color: rgba(39, 42, 51, 1);
+    --burger-border-color: rgba(39, 42, 51, 1);
+    --button-background-color-hover: rgba(238, 117, 62, 1);
+    --burger-background-nav-color: #fff;
+    --burger-border-nav-color: rgba(213, 223, 233, 1);
+    --header-border-color: rgba(234, 239, 244, 1);
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <div class="page">
+            <header class="header">
+                <div class="logo">
+                    <a href="./index.html">
+                        <img src="./img/Group 7.svg" />
+                    </a>
+                </div>
+                <nav class="nav">
+                    <a href="#">ГЛАВНАЯ</a>
+                    <a href="#">КАТАЛОГ</a>
+                    <a href="#">О КОМПАНИИ</a>
+                    <a href="#">ОПЛАТА И ДОСТАВКА</a>
+                    <a href="#">КОНТАКТЫ</a>
+                </nav>
+
+                <button class="burger" aria-label="Открыть меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </header>
+            <div class="header-line"></div>
+            <main>
+                <section class="cards-section">
+                    <h2 class="section-title">Рекомендуемое оборудование</h2>
+                    <div class="cards-grid">
+                        <template id="card">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="" alt="" />
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="card-title">
+                                        Стальной канат для лифта GRS
+                                        9X21F(9Х17)-IWRC 1570
+                                    </h3>
+                                    <div class="card-availability-container">
+                                        <img
+                                            class="card-availability-img"
+                                            src="./img/Frame 301.svg"
+                                            alt=""
+                                        />
+
+                                        <p class="card-availability-text">
+                                            В наличии 50 м.
+                                        </p>
+                                    </div>
+                                    <button class="card-button button">
+                                        Подробнее
+                                    </button>
+                                </div>
+                            </div>
+                        </template>
+                    </div>
+                    <button class="cards-section-button button">
+                        Перейти в каталог
+                    </button>
+                </section>
+                <section class="gallery-section">
+                    <h2 class="section-title">О компании</h2>
+                    <div class="gallery-layout">
+                        <div class="gallery">
+                            <div class="gallery-item gallery-item-large">
+                                <img src="./img/1.png" alt="Фото 1" />
+                            </div>
+                            <div class="gallery-item">
+                                <img src="./img/2.png" alt="Фото 2" />
+                            </div>
+                            <div class="gallery-item">
+                                <img src="./img/3.png" alt="Фото 3" />
+                            </div>
+                        </div>
+
+                        <!-- Правая колонка — текст -->
+                        <div class="gallery-text">
+                            <h3 class="gallery-title">
+                                Компания «SPARTSPRO» специализируется на
+                                поставках лифтового оборудования, комплектующих
+                                и запчастей для лифтов и эскалаторов ведущих
+                                мировых и российских производителей.
+                            </h3>
+                            <ul class="gallery-list">
+                                <li>
+                                    Гарантия качества – работаем только с
+                                    проверенными производителями.
+                                </li>
+                                <li>
+                                    Собственный склад – более 30 000
+                                    наименований в наличии для оперативных
+                                    отгрузок.
+                                </li>
+                                <li>
+                                    Соблюдение сроков – приоритет компании:
+                                    быстрая обработка заказов и доставка без
+                                    задержек.
+                                </li>
+                            </ul>
+                            <p class="gallery-description">
+                                Мы обеспечиваем бесперебойные поставки для ваших
+                                проектов. Оставьте заявку – и получите
+                                коммерческое предложение в кратчайшие сроки!
+                            </p>
+                            <button class="gallery-button button">
+                                Подробнее
+                            </button>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <script type="module" src="./scripts/createCard.js"></script>
+        <script type="module" src="./scripts/burgerMenu.js"></script>
+    </body>
+</html>

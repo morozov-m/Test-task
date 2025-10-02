@@ -1,0 +1,55 @@
+.page {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: var(--text-color);
+    overflow-x: hidden;
+}
+
+.section-title {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 30.5px;
+    line-height: 135%;
+}
+
+.button {
+    padding: 8px 30px 12px;
+    color: var(--button-text-color);
+    background-color: var(--button-background-color);
+    border-radius: 8px;
+    transition: background-color .2s ease-in;
+    font-size: 18px;
+    line-height: 145%;
+}
+
+.button:hover {
+    background-color: var(--button-background-color-hover);
+}
+
+@media (max-width: 1160px) {
+    .section-title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: 20px;
+        line-height: 120%;
+    }
+}
+
+@media (max-width: 576px) {
+    .section-title {
+        margin-bottom: 20px;
+    }
+
+    .button {
+        font-size: 16px;
+    }
+}
